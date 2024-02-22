@@ -50,6 +50,10 @@ main{
     .purple-txt{
         color: var(--color-section-color);
     }
+    .line-height{
+        line-height: 15px;
+        line-break: anywhere;
+    }
     /*dimensions*/
     .size-pic{
         font-size: 80px;
@@ -158,6 +162,9 @@ nav {
     font-size: 45px;
     color: var(--color-section-color);
 }
+#call-to-action{
+    background-color: var(--color-section-color);
+}
 .container-free{
     margin: 25px;
     padding: 25px;
@@ -174,8 +181,7 @@ h1{
     background-color: var(--color-footer-color);
 }
 .black-foot{
-    margin: 25px;
-    margin-bottom: 0;
+    margin: 0 25px;
     padding: 25px;
     background-color: var(--color-footer-color);
 }
