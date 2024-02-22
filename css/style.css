@@ -44,6 +44,13 @@ main{
     .center-txt{
         text-align: center;
     }
+    .blue-txt{
+        color: var(--color-accent-color);
+    }
+    /*dimensions*/
+    .size-pic{
+        font-size: 80px;
+    }
     /*utility flex*/
 .display-f{
     display: flex;
@@ -81,6 +88,41 @@ nav {
 .card{
     margin: 25px;
     padding: 25px;
+    padding-bottom: 0;
     border-radius: 30px;
-    background-color: var(--color-accent-color);
+    background-color: var(--color-contrast-color);
+}
+.card .img-demo img{
+    vertical-align: bottom;
+}
+.plan{
+    padding: 60px;
+    background-color: var(--color-section-color);
+}
+.plan-content{
+    color: var(--color-negative-color);
+}
+.plan-card{
+    margin: 25px;
+    padding: 25px;
+    border-radius: 50px;
+    background-color: var(--color-negative-color);
+}
+.intro h2{
+    color: var(--color-section-color);
+}
+.intro{
+    margin: 25px;
+    padding: 25px;
+}
+.partner-card{
+    margin: 25px;
+    padding: 25px;
+    border-radius: 30px;
+    background-color: var(--color-section-color);
+}
+.img-partner{
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
 }
