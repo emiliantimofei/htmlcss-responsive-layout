@@ -146,9 +146,14 @@ nav {
     padding: 25px;
     border-radius: 20px;
 }
+.container-us{
+    margin: 25px;
+    padding: 25px;
+}
 .i-relative{
     position: relative;
     top: 0;
     right: 0;
     color: var(--color-section-color);
 }
+.
