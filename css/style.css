@@ -22,7 +22,6 @@ body {
     font-style: normal;
     background-color: var(--color-negative-color);
     color: var(--color-main-color);
-
 }
 :root {
     --color-section-color: #9792e4;
@@ -35,9 +34,17 @@ body {
 }
 img{
     width: 100%;
-    
+
 }
-/*utility flex*/
+main{
+    margin-top: 120px;
+}
+/*utilities*/
+    /*texts*/
+    .center-txt{
+        text-align: center;
+    }
+    /*utility flex*/
 .display-f{
     display: flex;
 }
@@ -59,6 +66,7 @@ nav {
     left: 0;
     top: 0;
     background-color: var(--color-accent-color);
+    z-index: 999;
 }
 .hamburger{
     color: white;
@@ -68,4 +76,11 @@ nav {
 }
 .space-pad{
     padding: 12px;
+}
+/*main*/
+.card{
+    margin: 25px;
+    padding: 25px;
+    border-radius: 30px;
+    background-color: var(--color-accent-color);
 }
