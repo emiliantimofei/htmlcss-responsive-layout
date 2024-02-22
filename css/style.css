@@ -168,3 +168,6 @@ h1{
 .container-free button{
     color: var(--color-section-color);
 }
+.black-foot{
+    background-color: var(--color-footer-color);
+}
