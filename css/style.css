@@ -47,6 +47,9 @@ main{
     .blue-txt{
         color: var(--color-accent-color);
     }
+    .purple-txt{
+        color: var(--color-section-color);
+    }
     /*dimensions*/
     .size-pic{
         font-size: 80px;
@@ -123,11 +126,29 @@ nav {
 }
 .img-partner{
     overflow: hidden;
-}
-.partner-card img{
-    aspect-ratio: 1 / 1;
     border-radius: 50%;
+    aspect-ratio: 1 / 1;
+}
+.img-partner img{
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 .description{
     color: var(--color-negative-color);
+}
+#feautures{
+    padding-bottom: 30px;
+    background-color: var(--color-section-color);
+}
+.feauture-card{
+    background-color: var(--color-negative-color);
+    margin: 25px;
+    padding: 25px;
+    border-radius: 20px;
+}
+.i-relative{
+    position: relative;
+    top: 0;
+    right: 0;
+    color: var(--color-section-color);
 }
