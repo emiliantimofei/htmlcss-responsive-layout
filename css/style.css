@@ -122,7 +122,12 @@ nav {
     background-color: var(--color-section-color);
 }
 .img-partner{
+    overflow: hidden;
+}
+.partner-card img{
     aspect-ratio: 1 / 1;
     border-radius: 50%;
-    overflow: hidden;
+}
+.description{
+    color: var(--color-negative-color);
 }
