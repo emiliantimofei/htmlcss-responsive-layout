@@ -156,4 +156,15 @@ nav {
     right: 0;
     color: var(--color-section-color);
 }
-.
+.container-free{
+    margin: 25px;
+    padding: 25px;
+    background-color: var(--color-section-color);
+    color: var(--color-negative-color);
+}
+h1{
+    color: var(--color-accent-color-secondary);
+}
+.container-free button{
+    color: var(--color-section-color);
+}
